@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" onclick="addition()">add</button>
+    <button type="button" onclick="subtraction()">sub</button>
+    <p id="add"></p>
+    <p id="sub"></p>
+    <script>
+        var a = 20;
+        function addition(){
+            var b = 14;
+            document.getElementById("add").innerHTML = a+b;
+        }
+        function subtraction(){
+            var c = 6;
+            document.getElementById("sub").innerHTML = a-c;
+        }
+    </script>
+</body>
+</html>
