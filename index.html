@@ -8,8 +8,14 @@
 <body>
     <button type="button" onclick="addition()">add</button>
     <button type="button" onclick="subtraction()">sub</button>
+    <button type="button" onclick="multiplication()">mul</button>
+    <button type="button" onclick="division()">div</button>
+    <button type="button" onclick="remainder()">rem</button>
     <p id="add"></p>
     <p id="sub"></p>
+    <p id="mul"></p>
+    <p id="div"></p>
+    <p id="rem"></p>
     <script>
         var a = 20;
         function addition(){
@@ -19,6 +25,18 @@
         function subtraction(){
             var c = 6;
             document.getElementById("sub").innerHTML = a-c;
+        }
+        function multiplication(){
+            var d = 5;
+            document.getElementById("mul").innerHTML = a*d;
+        }
+        function division(){
+            var e = 2;
+            document.getElementById("div").innerHTML = a/e;
+        }
+        function remainder(){
+            var f = 7;
+            document.getElementById("rem").innerHTML = a%f;
         }
     </script>
 </body>
